@@ -1,8 +1,11 @@
 import React from 'react'
+import Items from '../components/Items/Items'
 
 function Main() {
   return (
-    <div>Main</div>
+    <div>
+      <Items />
+    </div>
   )
 }
 
