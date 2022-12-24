@@ -3,5 +3,14 @@
 @tailwind utilities;
 
 .container {
-  display: grid;
+  display: grid grid-cols-4;
+}
+
+@layer components {
+  .card {
+    @apply
+      bg-white text-gray-700
+      w-72 min-h-[10rem]
+      shadow-lg rounded-md overflow-hidden
+  }
 }

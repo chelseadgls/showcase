@@ -12,6 +12,9 @@
   
   function Space_Card() {
     return (
+      <div>
+
+      </div>
     )
   }
   
