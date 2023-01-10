@@ -32,7 +32,7 @@ export default function Creators(props){
 
   return (
     <div className="container">
-      {creators.map((creator, key) => <Spaces_List key={key} {...creator} />)}
+      {creators.map((creator, key) => <Creators_List key={key} {...creator} />)}
     </div>
   )
 
