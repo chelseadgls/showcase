@@ -23,6 +23,7 @@ function Items(props) {
         items.map((item) => {
           return (<div> 
             <p>{item.fields[0].Name}</p>
+            <img src={item.fields[0].Images[0].url} />
           </div>
           )
         })
